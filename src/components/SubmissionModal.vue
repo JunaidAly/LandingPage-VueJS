@@ -1,4 +1,5 @@
 <script setup>
+import { X } from 'lucide-vue-next';
 defineProps({ show: Boolean })
 defineEmits(['close'])
 </script>
@@ -15,15 +16,15 @@ defineEmits(['close'])
 
           <!-- Close button -->
           <button
-            class="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full border border-white/20 text-white text-sm hover:bg-white/10 transition-colors"
+            class="absolute top-4 right-4 w-6 h-6 flex items-center justify-center rounded-full cursor-pointer border border-white/20 text-white text-sm bg-white "
             @click="$emit('close')"
           >
-            ✕
+              <X size="20" class="text-black"/>
           </button>
 
           <!-- Thumbs up icon -->
           <div class="w-24 h-24 rounded-full border-2 border-white flex items-center justify-center text-5xl">
-            👍
+            <img src="/assets/modalicon.png" alt="modal icon" class="w-12 h-12 object-contain">
           </div>
 
           <!-- Heading -->
