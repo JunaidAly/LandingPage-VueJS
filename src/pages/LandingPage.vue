@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar.vue'
 import Hero from '../components/Hero.vue'
 import BookingBar from '../components/BookingBar.vue'
 import Features from '../components/Features.vue'
+import About from '../components/About.vue'
+import BookingCTA from '../components/BookingCTA.vue'
 import Footer from '../components/Footer.vue'
 </script>
 
@@ -22,7 +24,8 @@ import Footer from '../components/Footer.vue'
 
     <main>
       <Features />
-      <!-- <CTA /> -->
+      <About />
+      <BookingCTA />
     </main>
 
     <Footer />

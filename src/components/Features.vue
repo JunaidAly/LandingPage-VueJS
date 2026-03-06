@@ -1,5 +1,5 @@
 <script setup>
-import { TreePine, Dumbbell, Bike, ShieldCheck } from 'lucide-vue-next'
+import { TreePine, Dumbbell, Bike, ShieldCheck, ArrowRight } from 'lucide-vue-next'
 import AppButton from './ui/AppButton.vue'
 
 const features = [
@@ -47,7 +47,7 @@ const features = [
       <div
         v-for="feature in features"
         :key="feature.title"
-        class="flex flex-col items-center text-center p-8 border border-gray-dim bg-bg-rich rounded-sm gap-5 hover:border-gray-soft transition-colors duration-300"
+        class="flex flex-col items-center text-center p-8 border border-gray-mid bg-black rounded-2xl gap-5"
       >
         <!-- Icon -->
         <div class="text-white">
@@ -66,7 +66,7 @@ const features = [
 
         <!-- CTA Button -->
         <AppButton variant="outline-white" size="sm">
-          Book Now &nbsp;&rarr;
+          Book Now <ArrowRight size="16" />
         </AppButton>
       </div>
     </div>
