@@ -3,18 +3,15 @@ defineProps({
   variant: {
     type: String,
     default: 'primary',
-    // primary      → green bg, white text  (CTA / main actions)
-    // outline-white → transparent, white border + text (dark bg cards)
-    // outline-dark  → transparent, dark border + text (light bg cards)
-    // ghost        → no border, text only
+   
   },
   size: {
     type: String,
-    default: 'md', // sm | md | lg
+    default: 'md',
   },
   as: {
     type: String,
-    default: 'button', // button | a
+    default: 'button', 
   },
 })
 </script>
@@ -31,18 +28,17 @@ defineProps({
       size === 'md' && 'text-xl px-6 py-1',
       size === 'lg' && 'text-sm px-8 py-4',
 
-      // variant: primary (green)
       variant === 'primary' && [
         'bg-green-deep text-white border border-green-deep rounded-sm'
       ],
 
-      // variant: outline-white (for dark backgrounds)
+    
       variant === 'outline-white' && [
         'bg-transparent border border-white text-white ',
         'rounded-md font-inter font-bold ',
       ],
 
-      // variant: outline-about (for about section)
+  
       variant === 'outline-about' && [
         'bg-transparent font-inter border  uppercase text-black',
         'bg-white ',

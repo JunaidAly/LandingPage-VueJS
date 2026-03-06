@@ -31,7 +31,7 @@ function handleSubmit() {
 
     <div class="max-w-6xl mx-auto flex items-center gap-8">
 
-      <!-- Left: form content -->
+    
       <div class="flex-1 min-w-0 flex flex-col gap-5">
 
         <!-- Heading -->
@@ -48,7 +48,7 @@ function handleSubmit() {
         <!-- Form fields -->
         <form class="flex flex-col gap-3" @submit.prevent="handleSubmit">
 
-          <!-- Row 1: Name + Email -->
+        
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <AppInput
               v-model="form.name"
@@ -65,7 +65,7 @@ function handleSubmit() {
             />
           </div>
 
-          <!-- Row 2: Phone + Investment -->
+        
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <AppInput
               v-model="form.phone"
@@ -75,7 +75,7 @@ function handleSubmit() {
               required
             />
 
-            <!-- Investment Listbox -->
+        
             <div class="relative">
               <Listbox v-model="selectedInvestment">
                 <ListboxButton
@@ -108,7 +108,7 @@ function handleSubmit() {
             </div>
           </div>
 
-          <!-- Row 3: Location full-width -->
+        
           <AppInput
             v-model="form.location"
             placeholder="Location"
@@ -129,7 +129,7 @@ function handleSubmit() {
         </form>
       </div>
 
-      <!-- Right: man image -->
+  
       <div class="hidden absolute right-10  lg:flex items-end self-stretch shrink-0 w-72 xl:w-80">
         <img
           src="/assets/man.png.png"

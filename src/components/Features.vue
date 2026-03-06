@@ -29,12 +29,11 @@ const features = [
 <template>
   <section class="bg-black py-16 px-4 sm:px-6 lg:px-8">
 
-    <!-- Section label -->
     <div class="text-center mb-10">
       <p class="text-gray-light text-xs tracking-[0.25em] uppercase font-inter">
         World-Class Amenities at Binghatti Tilal
       </p>
-      <!-- decorative dot -->
+   
       <div class="mt-3 flex items-center justify-center gap-2">
        
         <span class="block h-1.5 w-1.5  bg-white"></span>
@@ -42,29 +41,28 @@ const features = [
       </div>
     </div>
 
-    <!-- Cards grid -->
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <div
         v-for="feature in features"
         :key="feature.title"
         class="flex flex-col items-center text-center p-8 border border-gray-mid bg-black rounded-2xl gap-5"
       >
-        <!-- Icon -->
+       
         <div class="text-white">
           <component :is="feature.icon" :size="44" :stroke-width="1.25" />
         </div>
 
-        <!-- Title -->
+   
         <h3 class="text-white font-satoshi font-bold text-base leading-snug">
           {{ feature.title }}
         </h3>
 
-        <!-- Description -->
+     
         <p class="text-gray-light font-inter text-sm leading-relaxed flex-1">
           {{ feature.description }}
         </p>
 
-        <!-- CTA Button -->
+      
         <AppButton variant="outline-white" size="sm">
           Book Now <ArrowRight size="16" />
         </AppButton>

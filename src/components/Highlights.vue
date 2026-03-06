@@ -39,7 +39,7 @@ const highlights = [
         Comprehensive Overview of Key Project Achievements and Milestones
       </h2>
 
-      <!-- Images grid: large left + two smaller right -->
+     
       <div class="grid grid-cols-1 lg:grid-cols-[2.2fr_1.4fr_1.4fr] gap-4 items-start">
         <div
           v-for="item in highlights"

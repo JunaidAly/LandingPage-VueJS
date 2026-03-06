@@ -15,7 +15,7 @@
         </p>
       </div>
 
-      <!-- Unit 1: Premium 3-Bedroom — text left, image right -->
+    
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div class="flex flex-col gap-1">
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <!-- Unit 2: Elegant 4-Bedroom — image left, text right -->
+     
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div class="overflow-hidden order-2 lg:order-1">
           <img
@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <!-- Unit 3: Luxury 5+ Bedroom — text left, image right -->
+
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div class="flex flex-col gap-1">
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
@@ -122,7 +122,7 @@
         </div>
       </div>
 
-      <!-- Curated Amenities & Lifestyle -->
+    
       <div class="flex flex-col gap-1">
         <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Curated Amenities &amp; Lifestyle

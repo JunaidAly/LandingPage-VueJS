@@ -21,7 +21,7 @@ const investments = [
 const selectedInvestment = ref(null)
 
 function handleSubmit() {
-  // handle form submit
+ 
 }
 </script>
 
@@ -60,7 +60,7 @@ function handleSubmit() {
         class="flex-1 min-w-0"
       />
 
-      <!-- Investment — Headless UI Listbox -->
+     
       <div class="relative flex-1 min-w-0">
         <Listbox v-model="selectedInvestment">
           <ListboxButton

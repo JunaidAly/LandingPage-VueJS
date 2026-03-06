@@ -13,7 +13,7 @@ import Footer from '../components/Footer.vue'
 <template>
   <div class="min-h-screen">
 
-    <!-- Shared background: Navbar + Hero sit on same image -->
+  
     <div
       class="relative w-full bg-cover bg-center"
       style="background-image: url('/assets/heroimg.png');"

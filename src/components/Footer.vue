@@ -5,7 +5,7 @@ import { Icon } from '@iconify/vue'
 <template>
   <footer class="bg-black text-white font-inter max-w-7xl mx-auto">
 
-    <!-- Top row: Logo | Nav links | Social icons -->
+   
     <div class="flex flex-col md:flex-row items-center justify-between gap-6 px-6 lg:px-12 py-5">
 
       <!-- Logo -->
@@ -39,7 +39,7 @@ import { Icon } from '@iconify/vue'
       </div>
     </div>
 
-    <!-- Bottom row: Copyright | CTA links -->
+
     <div class="flex flex-col sm:flex-row items-center justify-between gap-3 px-6 lg:px-12 py-4">
       <p class="text-white text-xs tracking-wide">
         &copy;2026 Tilal Binghatti City Dubai. All Rights Reserved

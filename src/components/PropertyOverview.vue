@@ -2,7 +2,7 @@
   <section class="bg-black py-20 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto flex flex-col gap-14">
 
-      <!-- Section 1: Redefining Ground-Level Luxury -->
+
       <div class="flex flex-col gap-1">
         <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Redefining Ground-Level Luxury with Binghatti Tilal
@@ -15,7 +15,6 @@
         </p>
       </div>
 
-      <!-- Section 2: Value Proposition -->
       <div class="flex flex-col gap-1">
         <h3 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           The Value Proposition: Why AED 3.2M is a Strategic Entry
@@ -43,7 +42,6 @@
         </ul>
       </div>
 
-      <!-- Section 3: Payment Plan -->
       <div class="flex flex-col gap-1">
         <h3 class="text-white font-satoshi  font-bold text-2xl sm:text-3xl leading-tight">
           Anticipated Payment Plan
@@ -70,7 +68,6 @@
         </p>
       </div>
 
-      <!-- Section 4: Amenities -->
       <div class="flex flex-col gap-1">
         <h3 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Curated Amenities &amp; Lifestyle

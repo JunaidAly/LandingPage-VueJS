@@ -27,7 +27,7 @@ defineProps({
 
 defineEmits(['update:modelValue'])
 
-// Expose all attrs to parent (e.g. name, autocomplete)
+
 defineOptions({ inheritAttrs: false })
 const attrs = useAttrs()
 </script>

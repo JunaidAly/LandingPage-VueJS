@@ -13,9 +13,7 @@ const menuOpen = ref(false)
         <!-- Logo -->
         <RouterLink to="/" class="shrink-0">
           <img src="/assets/logo.png" alt="Logo" class="h-12 w-auto object-contain" />
-        </RouterLink>
 
-        <!-- Right group: Top Rated + Phone + CTA -->
         <div class="hidden md:flex items-center gap-20">
 
           <!-- Top Rated -->
