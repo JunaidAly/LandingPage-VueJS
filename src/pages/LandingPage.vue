@@ -4,6 +4,8 @@ import Hero from '../components/Hero.vue'
 import BookingBar from '../components/BookingBar.vue'
 import Features from '../components/Features.vue'
 import About from '../components/About.vue'
+import Highlights from '../components/Highlights.vue'
+import ReserveBanner from '../components/ReserveBanner.vue'
 import BookingCTA from '../components/BookingCTA.vue'
 import Footer from '../components/Footer.vue'
 </script>
@@ -26,6 +28,8 @@ import Footer from '../components/Footer.vue'
       <Features />
       <About />
       <BookingCTA />
+      <Highlights />
+      <ReserveBanner />
     </main>
 
     <Footer />

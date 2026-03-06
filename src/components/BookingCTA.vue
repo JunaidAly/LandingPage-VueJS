@@ -22,7 +22,7 @@ function handleSubmit() {
 </script>
 
 <template>
-  <section class="relative bg-black overflow-hidden py-14 px-4 sm:px-6 lg:px-12">
+  <section class="relative bg-black overflow-hidden py-2 px-4 sm:px-6 lg:px-12">
 
     <div class="max-w-6xl mx-auto flex items-center gap-8">
 
