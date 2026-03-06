@@ -4,6 +4,7 @@ import { Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headless
 import { ChevronDown, Check } from 'lucide-vue-next'
 import AppButton from './ui/AppButton.vue'
 import AppInput from './ui/AppInput.vue'
+import SubmissionModal from './SubmissionModal.vue'
 
 const form = ref({ name: '', email: '', phone: '', location: '' })
 
@@ -15,9 +16,10 @@ const investments = [
   'Above AED 10M',
 ]
 const selectedInvestment = ref(null)
+const showModal = ref(false)
 
 function handleSubmit() {
-  // handle form submit
+  showModal.value = true
 }
 </script>
 
@@ -135,4 +137,6 @@ function handleSubmit() {
 
     </div>
   </section>
+
+  <SubmissionModal :show="showModal" @close="showModal = false" />
 </template>

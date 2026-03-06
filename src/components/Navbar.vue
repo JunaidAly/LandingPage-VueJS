@@ -11,9 +11,9 @@ const menuOpen = ref(false)
       <div class="flex items-center justify-between h-24">
 
         <!-- Logo -->
-        <div class="shrink-0">
+        <RouterLink to="/" class="shrink-0">
           <img src="/assets/logo.png" alt="Logo" class="h-12 w-auto object-contain" />
-        </div>
+        </RouterLink>
 
         <!-- Right group: Top Rated + Phone + CTA -->
         <div class="hidden md:flex items-center gap-20">

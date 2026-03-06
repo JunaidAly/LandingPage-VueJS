@@ -9,17 +9,17 @@ import { Icon } from '@iconify/vue'
     <div class="flex flex-col md:flex-row items-center justify-between gap-6 px-6 lg:px-12 py-5">
 
       <!-- Logo -->
-      <div class="shrink-0">
+      <RouterLink to="/" class="shrink-0">
         <img src="/assets/logo.png" alt="Binghatti Tilal" class="h-12 w-auto object-contain" />
-      </div>
+      </RouterLink>
 
       <!-- Nav links -->
       <nav class="flex flex-wrap items-center justify-center gap-8">
-        <a href="#" class="text-white text-sm tracking-wide ">Plan</a>
-        <a href="#" class="text-white text-sm tracking-wide ">Master Plan</a>
-        <a href="#" class="text-white text-sm tracking-wide ">Amenities</a>
-        <a href="#" class="text-white text-sm tracking-wide ">Floor Plan</a>
-        <a href="#" class="text-white text-sm tracking-wide ">Locations</a>
+        <RouterLink to="/plans" class="text-white text-sm tracking-wide">Plan</RouterLink>
+        <a href="#" class="text-white text-sm tracking-wide">Master Plan</a>
+        <a href="#" class="text-white text-sm tracking-wide">Amenities</a>
+        <RouterLink to="/floorplans" class="text-white text-sm tracking-wide">Floor Plan</RouterLink>
+        <a href="#" class="text-white text-sm tracking-wide">Locations</a>
       </nav>
 
       <!-- Social icons -->
