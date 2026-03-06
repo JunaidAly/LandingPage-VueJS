@@ -1,8 +1,8 @@
 <script setup>
 import Navbar from '../components/Navbar.vue'
 import Hero from '../components/Hero.vue'
+import BookingBar from '../components/BookingBar.vue'
 import Features from '../components/Features.vue'
-import CTA from '../components/CTA.vue'
 import Footer from '../components/Footer.vue'
 </script>
 
@@ -18,9 +18,11 @@ import Footer from '../components/Footer.vue'
       <Hero />
     </div>
 
+    <BookingBar />
+
     <main>
-      <!-- <Features />
-      <CTA /> -->
+      <Features />
+      <!-- <CTA /> -->
     </main>
 
     <Footer />
