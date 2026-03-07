@@ -3,7 +3,12 @@
     <div class="max-w-7xl mx-auto flex flex-col gap-14">
 
 
-      <div class="flex flex-col gap-1">
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600 } }"
+      >
         <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Redefining Ground-Level Luxury with Binghatti Tilal
         </h2>
@@ -15,7 +20,12 @@
         </p>
       </div>
 
-      <div class="flex flex-col gap-1">
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 100 } }"
+      >
         <h3 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           The Value Proposition: Why AED 3.2M is a Strategic Entry
         </h3>
@@ -42,7 +52,12 @@
         </ul>
       </div>
 
-      <div class="flex flex-col gap-1">
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 100 } }"
+      >
         <h3 class="text-white font-satoshi  font-bold text-2xl sm:text-3xl leading-tight">
           Anticipated Payment Plan
         </h3>
@@ -68,7 +83,12 @@
         </p>
       </div>
 
-      <div class="flex flex-col gap-1">
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 100 } }"
+      >
         <h3 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Curated Amenities &amp; Lifestyle
         </h3>

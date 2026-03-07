@@ -29,22 +29,34 @@ const highlights = [
     <div class="max-w-7xl mx-auto">
 
       <!-- Section label -->
-      <div class="flex items-center gap-2 mb-4">
+      <div
+        class="flex items-center gap-2 mb-4"
+        v-motion
+        :initial="{ opacity: 0, y: 30 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 500 } }"
+      >
         <span class="text-white text-xs tracking-[0.3em] uppercase font-inter">Highlights</span>
         <span class="block w-px h-4 bg-white"></span>
       </div>
 
       <!-- Heading -->
-      <h2 class="text-white font-satoshi font-bold text-3xl sm:text-4xl leading-tight max-w-2xl mb-10">
+      <h2
+        class="text-white font-satoshi font-bold text-3xl sm:text-4xl leading-tight max-w-2xl mb-10"
+        v-motion
+        :initial="{ opacity: 0, y: 40 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 100 } }"
+      >
         Comprehensive Overview of Key Project Achievements and Milestones
       </h2>
 
-     
       <div class="grid grid-cols-1 lg:grid-cols-[2.2fr_1.4fr_1.4fr] gap-4 items-start">
         <div
-          v-for="item in highlights"
+          v-for="(item, i) in highlights"
           :key="item.label"
-          class="flex flex-col "
+          class="flex flex-col"
+          v-motion
+          :initial="{ opacity: 0, y: 60 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: i * 150 } }"
         >
           <!-- Image -->
           <div

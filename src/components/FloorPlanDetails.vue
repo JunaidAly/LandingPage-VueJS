@@ -3,7 +3,12 @@
     <div class="max-w-7xl mx-auto flex flex-col gap-14">
 
       <!-- Intro -->
-      <div class="flex flex-col gap-1">
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 40 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600 } }"
+      >
         <p class="text-white font-light font-inter text-sm leading-relaxed">
           The residential layouts at Tilal Binghatti represent a masterclass in modern spatial design. Transitioning from their iconic high-rise towers to a sprawling horizontal community, Binghatti Developers has prioritized efficient circulation, wide room proportions, and an abundance of natural light.
         </p>
@@ -15,9 +20,14 @@
         </p>
       </div>
 
-    
+      <!-- Unit 1: text left, image right -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div class="flex flex-col gap-1">
+        <div
+          class="flex flex-col gap-1"
+          v-motion
+          :initial="{ opacity: 0, x: -60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
             Premium 3-Bedroom Townhouses
           </h2>
@@ -39,7 +49,12 @@
             </li>
           </ul>
         </div>
-        <div class="overflow-hidden">
+        <div
+          class="overflow-hidden"
+          v-motion
+          :initial="{ opacity: 0, x: 60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <img
             src="/assets/floorplan/1.png"
             alt="Premium 3-Bedroom Townhouse"
@@ -48,16 +63,26 @@
         </div>
       </div>
 
-     
+      <!-- Unit 2: image left, text right -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div class="overflow-hidden order-2 lg:order-1">
+        <div
+          class="overflow-hidden order-2 lg:order-1"
+          v-motion
+          :initial="{ opacity: 0, x: -60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <img
             src="/assets/floorplan/2.png"
             alt="Elegant 4-Bedroom Townhouse"
             class="w-full h-full object-cover"
           />
         </div>
-        <div class="flex flex-col gap-1 order-1 lg:order-2">
+        <div
+          class="flex flex-col gap-1 order-1 lg:order-2"
+          v-motion
+          :initial="{ opacity: 0, x: 60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
             Elegant 4-Bedroom Townhouses
           </h2>
@@ -86,8 +111,14 @@
       </div>
 
 
+      <!-- Unit 3: text left, image right -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div class="flex flex-col gap-1">
+        <div
+          class="flex flex-col gap-1"
+          v-motion
+          :initial="{ opacity: 0, x: -60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
             Luxury 5+ Bedroom Villas
           </h2>
@@ -113,7 +144,12 @@
             </li>
           </ul>
         </div>
-        <div class="overflow-hidden">
+        <div
+          class="overflow-hidden"
+          v-motion
+          :initial="{ opacity: 0, x: 60 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+        >
           <img
             src="/assets/floorplan/3.png"
             alt="Luxury 5+ Bedroom Villa"
@@ -122,8 +158,13 @@
         </div>
       </div>
 
-    
-      <div class="flex flex-col gap-1">
+      <!-- Amenities -->
+      <div
+        class="flex flex-col gap-1"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600 } }"
+      >
         <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-tight">
           Curated Amenities &amp; Lifestyle
         </h2>

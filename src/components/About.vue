@@ -8,7 +8,12 @@ import AppButton from './ui/AppButton.vue'
     <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
       <!-- Left: image collage -->
-      <div class="flex flex-col sm:flex-row sm:gap-4 lg:gap-6">
+      <div
+        class="flex flex-col sm:flex-row sm:gap-4 lg:gap-6"
+        v-motion
+        :initial="{ opacity: 0, x: -60 }"
+        :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+      >
         <!-- Tall left image — spans both rows -->
         <div class="row-span-2 overflow-hidden">
           <img
@@ -18,11 +23,16 @@ import AppButton from './ui/AppButton.vue'
           />
         </div>
 
-        
+
       </div>
 
       <!-- Right: text content -->
-      <div class="flex flex-col max-w-xl  gap-6">
+      <div
+        class="flex flex-col max-w-xl  gap-6"
+        v-motion
+        :initial="{ opacity: 0, x: 60 }"
+        :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
+      >
 
         <!-- Label -->
         <div class="flex items-center  gap-2">
