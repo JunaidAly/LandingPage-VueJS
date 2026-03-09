@@ -41,7 +41,7 @@ const highlights = [
 
       <!-- Heading -->
       <h2
-        class="text-white font-satoshi font-bold text-3xl sm:text-4xl leading-tight max-w-2xl mb-10"
+        class="text-white font-satoshi font-bold text-xl sm:text-2xl lg:text-4xl leading-tight max-w-2xl mb-10"
         v-motion
         :initial="{ opacity: 0, y: 40 }"
         :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 100 } }"

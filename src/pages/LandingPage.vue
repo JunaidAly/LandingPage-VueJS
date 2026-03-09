@@ -14,12 +14,12 @@ import Footer from '../components/Footer.vue'
   <div class="min-h-screen">
 
   
-    <div
-      class="relative w-full bg-cover bg-center"
-      style="background-image: url('/assets/heroimg.png');"
-    >
-      <Navbar />
-      <Hero />
+    <div class="relative w-full overflow-hidden">
+      <img src="/assets/heroimg.png" alt="" class="w-full h-auto block" />
+      <div class="absolute inset-0 flex flex-col">
+        <Navbar />
+        <Hero />
+      </div>
     </div>
 
     <BookingBar />

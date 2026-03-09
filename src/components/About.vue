@@ -4,26 +4,21 @@ import AppButton from './ui/AppButton.vue'
 </script>
 
 <template>
-  <section class="bg-black py-20 px-4 sm:px-6 lg:px-8">
+  <section class="bg-black sm:py-20 px-4 sm:px-6 lg:px-8">
     <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-      <!-- Left: image collage -->
+      <!-- Left: image -->
       <div
-        class="flex flex-col sm:flex-row sm:gap-4 lg:gap-6"
+        class="overflow-hidden "
         v-motion
         :initial="{ opacity: 0, x: -60 }"
         :visible-once="{ opacity: 1, x: 0, transition: { duration: 700 } }"
       >
-        <!-- Tall left image — spans both rows -->
-        <div class="row-span-2 overflow-hidden">
-          <img
-            src="/assets/aboutimg.png"
-            alt="Binghatti Tilal Interior"
-            class="w-full h-full object-cover"
-          />
-        </div>
-
-
+        <img
+          src="/assets/aboutimg.png"
+          alt="Binghatti Tilal Interior"
+          class="w-full h-auto object-cover mx-auto block"
+        />
       </div>
 
       <!-- Right: text content -->
@@ -41,7 +36,7 @@ import AppButton from './ui/AppButton.vue'
         </div>
 
         <!-- Heading -->
-        <h2 class="text-white font-satoshi font-bold text-4xl sm:text-5xl leading-tight">
+        <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl lg:text-5xl leading-tight">
           Redefining Ground-Level Luxury with Binghatti Tilal
         </h2>
 

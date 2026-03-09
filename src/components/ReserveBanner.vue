@@ -8,7 +8,7 @@ import AppButton from './ui/AppButton.vue'
 
     <!-- Heading -->
     <h2
-      class="text-white font-satoshi font-bold text-4xl sm:text-5xl lg:text-3xl leading-tight max-w-3xl"
+      class="text-white font-satoshi font-bold text-xl sm:text-2xl lg:text-3xl leading-tight max-w-3xl"
       v-motion
       :initial="{ opacity: 0, y: 50 }"
       :visible-once="{ opacity: 1, y: 0, transition: { duration: 700 } }"
