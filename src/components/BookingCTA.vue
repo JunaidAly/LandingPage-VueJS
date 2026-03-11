@@ -129,16 +129,14 @@ function handleSubmit() {
         </form>
       </div>
 
-  
-      <div class="hidden absolute right-10  lg:flex items-end self-stretch shrink-0 w-72 xl:w-80">
+    </div>
+    <div class="hidden absolute right-10 top-22  lg:flex items-end self-stretch shrink-0 w-72 xl:w-80">
         <img
           src="/assets/man.png.png"
           alt="Binghatti Tilal Agent"
           class="w-full h-auto object-contain object-bottom drop-shadow-2xl"
         />
       </div>
-
-    </div>
   </section>
 
   <SubmissionModal :show="showModal" @close="showModal = false" />
