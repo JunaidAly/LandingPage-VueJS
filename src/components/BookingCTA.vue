@@ -29,7 +29,7 @@ function handleSubmit() {
     style="background-image: url('/assets/formbgimg.png'); background-size: cover; background-position: center;"
   >
 
-    <div class="max-w-6xl bg-black py-10 px-5 rounded-xl mx-auto flex items-center gap-8">
+    <div class="max-w-6xl bg-black border border-gray-dark shadow-[#0000002B] py-10 px-5 rounded-xl mx-auto flex items-center gap-8">
 
     
       <div class="flex-1 min-w-0 flex flex-col gap-5">
