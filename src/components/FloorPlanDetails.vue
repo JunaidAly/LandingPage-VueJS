@@ -36,15 +36,15 @@
           </p>
           <ul class="flex flex-col">
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Estimated Size: 2,200 – 2,500 sq. ft.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Ground Floor (Social Zone): Features an expansive, open-plan living and dining area that flows directly into a private rear garden. The ground floor also includes a modern fitted kitchen, a powder room, and a dedicated maid's room with an en-suite bathroom.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Upper Floor – Private Suites: Houses the master suite featuring a walk-in closet and en-suite bath alongside two generously sized secondary bedrooms that share a premium family bathroom.</span>
             </li>
           </ul>
@@ -91,19 +91,19 @@
           </p>
           <ul class="flex flex-col">
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Estimated Size: 3,700 – 3,900 sq. ft.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Layout Highlights: These units feature a wider footprint, allowing for a grander entrance foyer and a larger open-plan kitchen with a central island.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Bedroom Configuration: Typically includes a ground-floor guest bedroom (or home office), while the upper level is dedicated to a sprawling master suite with a private balcony, plus two additional en-suite bedrooms.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Outdoor Space: Extended private garden spaces with ample room for outdoor dining and landscaping.</span>
             </li>
           </ul>
@@ -127,19 +127,19 @@
           </p>
           <ul class="flex flex-col">
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Estimated Size: 2,800 – 4,500+ sq. ft.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">The Ground Floor: Welcomes you with a double-height grand foyer leading into distinct formal and family living lounges. The massive floor-to-ceiling glass façades completely open up to the backyard, merging the interior with the outdoors. Includes a closed preparation kitchen, an open show kitchen, and extensive service quarters.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">The Upper Floor: Houses palatial master suites with spa-inspired bathrooms, oversized walk-in wardrobes, and private wrap-around terraces. All secondary bedrooms feature en-suite bathrooms and generous proportions.</span>
             </li>
             <li class="text-gray-light font-light font-inter text-sm leading-relaxed flex gap-2">
-              <span class="text-white mt-1">•</span>
+              <span class="text-white">•</span>
               <span class="text-white font-light">Exclusive Villa Features: Larger individual plots, expansive outdoor seating environments, and the option to integrate a private, temperature-controlled swimming pool.</span>
             </li>
           </ul>
@@ -173,19 +173,19 @@
         </p>
         <ul class="flex flex-col">
           <li class="text-white font-light font-inter text-sm leading-relaxed flex gap-2">
-            <span class="text-white mt-1">•</span>
+            <span class="text-white">•</span>
             <span class="text-white font-light">Private Landscaped Gardens: Every villa and townhouse comes with its own green sanctuary.</span>
           </li>
           <li class="text-white font-light font-inter text-sm leading-relaxed flex gap-2">
-            <span class="text-white mt-1">•</span>
+            <span class="text-white">•</span>
             <span class="text-white font-light">Expansive Layout: Floor-to-ceiling windows and open-plan living areas designed to maximize natural light.</span>
           </li>
           <li class="text-white font-light font-inter text-sm leading-relaxed flex gap-2">
-            <span class="text-white mt-1">•</span>
+            <span class="text-white">•</span>
             <span class="text-white font-light">Community Hub: Exclusive access to fitness centers, swimming pools, and children's play areas.</span>
           </li>
           <li class="text-white font-light font-inter text-sm leading-relaxed flex gap-2">
-            <span class="text-white mt-1">•</span>
+            <span class="text-white">•</span>
             <span class="text-white font-light">Prime Location: Seamless connectivity to Dubai's major highways, ensuring you are never far from the city's pulse.</span>
           </li>
         </ul>
