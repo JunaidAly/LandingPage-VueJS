@@ -29,7 +29,7 @@ function handleSubmit() {
     style="background-image: url('/assets/formbgimg.png'); background-size: cover; background-position: center;"
   >
 
-    <div class="max-w-6xl mx-auto flex items-center gap-8">
+    <div class="max-w-6xl bg-black py-10 px-5 rounded-xl mx-auto flex items-center gap-8">
 
     
       <div class="flex-1 min-w-0 flex flex-col gap-5">
@@ -39,7 +39,7 @@ function handleSubmit() {
           <h2 class="text-white font-satoshi font-bold text-2xl sm:text-3xl leading-snug">
             Book Your Exclusive Villa at Binghatti Tilal Today!
           </h2>
-          <p class="mt-2 text-gray-light font-inter text-sm leading-relaxed max-w-lg">
+          <p class="mt-2 text-gray-pale font-inter text-sm leading-relaxed max-w-lg">
             Discover refined villas and townhouses in Dubai — register now to unlock exclusive
             launch prices, floor plans, and priority booking access.
           </p>
